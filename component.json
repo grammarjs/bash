@@ -1,0 +1,19 @@
+{
+  "name": "bash",
+  "repo": "grammarjs/bash",
+  "description": "Bash 2.0 Grammar",
+  "version": "0.0.1",
+  "keywords": ["peg", "grammar", "bash"],
+  "dependencies": {
+    "grammarjs/grammar": "*",
+    "grammarjs/token": "*",
+    "grammarjs/punctuation": "*"
+  },
+  "development": {
+    "grammarjs/recursive-parser": "*",
+    "visionmedia/mocha": "*",
+    "component/assert": "*"
+  },
+  "scripts": ["index.js"],
+  "license": "MIT"
+}

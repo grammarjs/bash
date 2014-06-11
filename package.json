@@ -1,0 +1,15 @@
+{
+  "name": "grammarjs-bash",
+  "version": "0.0.1",
+  "description": "Bash 2.0 Grammar",
+  "keywords": ["peg", "grammar", "bash"],
+  "main": "./index.js",
+  "dependencies": {
+    "grammarjs-grammar": "*",
+    "grammarjs-token": "*",
+    "grammarjs-punctuation": "*"
+  },
+  "devDependencies": {
+    "grammarjs-recursive-parser": "*"
+  }
+}
